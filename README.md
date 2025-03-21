@@ -2,6 +2,10 @@
 
 An interactive web application that visualizes various sorting algorithms in real-time. This educational tool helps users understand how different sorting algorithms work, compare their performance, and learn about their time and space complexities.
 
+## 🚀 Live Demo
+
+**[View the live application here](https://types-of-sorting-algorithms.vercel.app/)**
+
 ## 🌟 Features
 
 - **Visual Representation**: See sorting algorithms in action with animated visualizations
