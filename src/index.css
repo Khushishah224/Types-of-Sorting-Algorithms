@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Remove default button styles that conflict with Tailwind */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Custom scrollbar styles */
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    border-radius: 100vh;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }
+  
+  .scrollbar-track-gray-200::-webkit-scrollbar-track {
+    background: #e5e7eb;
+  }
+  
+  .scrollbar-track-gray-800::-webkit-scrollbar-track {
+    background: #1f2937;
+  }
+  
+  .scrollbar-thumb-gray-400::-webkit-scrollbar-thumb {
+    background: #9ca3af;
+  }
+  
+  .scrollbar-thumb-gray-500::-webkit-scrollbar-thumb {
+    background: #6b7280;
+  }
+}
